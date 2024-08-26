@@ -13,3 +13,26 @@ console.log(anoAtual);
 
 idade = idade + 1;
 console.log(idade);
+
+//agencia de viagens;paris,nova york,londres,toquio,miami
+
+const listaDeDestinos = new Array(
+  "paris",
+  "nova york",
+  "londres",
+  "toquio",
+  "miami"
+);
+
+
+console.log(listaDeDestinos);
+console.log(listaDeDestinos[3]);
+listaDeDestinos.push("Coronel Vivida");
+
+
+console.log(listaDeDestinos)
+
+listaDeDestinos.push("curitiba");
+listaDeDestinos.push("rio de janeiro");
+listaDeDestinos.push("santos");
+console.log(listaDeDestinos);
