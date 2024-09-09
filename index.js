@@ -17,11 +17,11 @@ console.log(idade);
 //agencia de viagens;paris,nova york,londres,toquio,miami
 
 const listaDeDestinos = new Array(
-  "paris",
-  "nova york",
-  "londres",
-  "toquio",
-  "miami"
+  " paris",
+  " nova york",
+  " londres",
+  " toquio",
+  " miami"
 );
 
 
@@ -36,3 +36,17 @@ listaDeDestinos.push("curitiba");
 listaDeDestinos.push("rio de janeiro");
 listaDeDestinos.push("santos");
 console.log(listaDeDestinos);
+
+
+
+
+const idadeComprador = 15;
+
+if(idadeComprador >= 18) {
+   console.log("Comprador maior de idade");
+  console.log("destinos disponiveis: " + listaDeDestinos);
+} else { 
+  console.log("Não foi possivel realizar a compra ");
+
+console.log(" vocÊ é menor de idade"); 
+}
