@@ -1,3 +1,6 @@
+const prompt = require('prompt-sync');
+ const entrada = prompt() ;
+
 let idade = 17;
 const anoNascimento  = 2006;
 let anoAtual = 2024;
@@ -39,14 +42,24 @@ console.log(listaDeDestinos);
 
 
 
-
-const idadeComprador = 15;
+ var nomecomprador = entrada("digite seu nome?")
+ var idadeComprador = entrada("qual a sua idade ?");
 
 if(idadeComprador >= 18) {
+  console.log(" Ola senhor(a)" + nomecomprador);
    console.log("Comprador maior de idade");
   console.log("destinos disponiveis: " + listaDeDestinos);
 } else { 
   console.log("Não foi possivel realizar a compra ");
 
 console.log(" vocÊ é menor de idade"); 
+  console.log(" Ola senhor(a)" + nomecomprador);
+  
 }
+
+
+
+
+
+
+
